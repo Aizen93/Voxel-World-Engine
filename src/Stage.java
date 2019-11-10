@@ -5,6 +5,7 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Point;
+import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.Window;
@@ -22,6 +23,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.imageio.ImageIO;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -228,6 +232,15 @@ public class Stage extends JPanel{
                         c.showCube();
                     }
                 }
+                if((e.getKeyCode() == KeyEvent.VK_I) && ((e.getModifiers() & KeyEvent.CTRL_MASK) != 0)){
+                    BufferedImage image = r.createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
+                    try {
+                        ImageIO.write(image, "png", new File("screenshot.png"));
+                    } catch (IOException ex) {
+                        System.err.println("Failed to take a screenshot !");
+                    }
+                }
+                
             }
 
             @Override
@@ -852,6 +865,7 @@ public class Stage extends JPanel{
         g.drawString("Pour quitter: ESCAPE", getWidth()/2 - 200, getHeight()/2 + 120);
         g.drawString("Pour supprimer tous les cubes: N", getWidth()/2 - 200, getHeight()/2 + 150);
         g.drawString("Pour construire tous les cubes: B", getWidth()/2 - 200, getHeight()/2 + 180);
+        g.drawString("Pour une capture d'ecran: CTRL+I", getWidth()/2 - 200, getHeight()/2 + 210);
     }
     
     private double sqr(double nbr){

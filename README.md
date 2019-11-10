@@ -31,6 +31,9 @@ Appuyé enfoncé sur **la touche 'H' pour afficher le menu Help** pendant une pa
 - Vous pouvez créer une ligne de cubes avec `l'algorithme de Bresenham en 3D`
 
 -----------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------
+
 - Surtout Appuyé enfoncé sur **la touche 'H'** pour afficher le menu Help pendant une partie pour vous guidez -
+- Vous pouvez prendre un screenshot en utilisant `CTRl+I`
 -----------------------------------------------------------------------------------------------------------
+
+![Cube + Sphere](https://imgur.com/TdquQdd.png)
