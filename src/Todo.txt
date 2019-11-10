@@ -1,0 +1,15 @@
+﻿TO DO LIST:
+- ajouter ciel et terre
+
+Ce qui a été fait:
+- 1- Ajouter les Options si lumiere doit etre activé ou pas
+- 2- Controller le soleil
+- 3- Supprimer/Construire cube
+- 4- LineInCube bresenham algo
+- 5- Sauvegarde de la partie
+- 6- Recharger une partie depuis un fichier/sauvegarde
+- 7- Son pour Detruire/Construire
+- 8- SphereInCube 
+- 9- CubeInCube
+- 10- Ajouter des Textures
+- 11- Octree

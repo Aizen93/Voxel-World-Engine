@@ -1,0 +1,31 @@
+.DS_Store
+src/gui
+src/*.o
+manifest.mf
+
+target/
+bin/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.xml
+
+### NetBeans ###
+nbproject/*
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/

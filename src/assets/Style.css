@@ -1,0 +1,36 @@
+/* 
+    Created on : 18 nov. 2018, 23:46:05
+    Author     : Oussama
+*/
+
+.button {
+    -fx-background-color: gray;
+    -fx-text-fill: #FFF;
+    -fx-background-radius:3px;
+    -fx-effect: dropshadow( one-pass-box , rgba(62,65,68,0.9) , 5, 0.0 , 3 , 3);
+}
+
+.button:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-radius: 3px;
+}
+
+#menubut {
+    -fx-background-color: gray;
+    -fx-text-fill: white;
+    -fx-background-radius:3px;
+    -fx-effect: dropshadow( one-pass-box , rgba(62,65,68,0.9) , 5, 0.0 , 3 , 3);
+}
+
+#menubut:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-radius: 3px;
+}
