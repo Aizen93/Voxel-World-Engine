@@ -37,3 +37,5 @@ Appuyé enfoncé sur **la touche 'H' pour afficher le menu Help** pendant une pa
 -----------------------------------------------------------------------------------------------------------
 
 ![Cube + Sphere](https://imgur.com/TdquQdd.png)
+
+![Cube](https://i.imgur.com/fXdMkgh.png)
