@@ -6,7 +6,7 @@ You have **Cube, Pyramid, Prism and Sphere** FORMS alrady built in the engine.
 ********************************************************************************
 *     La taille des mondes peut être choisie par vous
 *     dans le cas de NewGame la taille est fixé a 8 = 512 cubes. On peux aller jusqu’à 32.786 cubes. suffit de changer la variable <universe>
-*     dans le cas des Algorithmes c'est vous qui choisissez la taille du monde (2, 4, 8, 16, 32, 64, 128...etc) mais au delà de 32 ça ram. Les processeurs ne suivent pas même un i7.
+*     dans le cas des Algorithmes c'est vous qui choisissez la taille du monde (2, 4, 8, 16, 32, 64, 128...etc) mais au delà de 32 le moteur ram.
 *     la taille des monde doit être une puissance de 2 OBLIGATOIRE.
 ********************************************************************************
 
